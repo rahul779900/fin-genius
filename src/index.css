@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.main-container {
+  /* border: 1px solid red; */
+  background-color: black;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  padding-bottom: 120px;
+}
+
+.content-container {
+  display: flex;
+  max-width: 100%;
+  gap: 20px;
+  /* background: rgba(255, 255, 255, 0.8); */
+  padding: 5px;
+  border-radius: 15px;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+  padding: 5px;
+}
+
+.text-container h1 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  width: 650px;
+  height: 580px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.top-navbar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+.logo {
+  opacity: 0.3;
+}
+.menu {
+  width: 30px;
+  height: 30px;
+}
+.menu img {
+  width: 100%;
+  height: 100%;
+}
+.text {
+  color: #fff;
+}
+
+/**/
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+
+  color: white; /* Ensure good contrast with the image */
+  /* padding: 0.5rem;
+  border-radius: 8px; /* Optional */
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  /* Semi-transparent black background */
+}
+.text-overlay h2 {
+  position: relative;
+  top: 30px;
+  font-size: 4rem;
+  color: #fff; /* Adjust as needed */
+}
+
+.text-overlay p {
+  margin: 0.5rem 0;
+  font-size: 1.2rem; /* Adjust as needed */
+}
+
+/* Optionally remove the background color entirely for fully transparent text */
+.text-overlay {
+  background-color: transparent;
+}
+.video-container {
+  margin-top: 8%;
+}
+
+.row1 {
+  display: flex;
+
+  width: 400px;
+  height: 100px;
+  gap: 20px;
+  margin: auto;
+}
+.row1 video {
+  width: 100%;
+  height: 100%;
+}
+.row2 {
+  display: flex;
+
+  width: 600px;
+  height: 100px;
+  gap: 20px;
+}
+.row2 video {
+  width: 100%;
+  height: 100%;
+}
+.row3 {
+  display: flex;
+
+  width: 400px;
+  height: 100px;
+  gap: 20px;
+  margin: auto;
+}
+.row3 video {
+  width: 100%;
+  height: 100%;
+}
+video {
+  border-radius: 15px;
+  margin-bottom: 10px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.rows {
+  margin-bottom: 20px;
+}
